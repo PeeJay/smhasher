@@ -1,7 +1,7 @@
 
 project(SMHasher)
 
-cmake_minimum_required(VERSION 2.4)
+cmake_minimum_required(VERSION 3.0)
 
 set(CMAKE_BUILD_TYPE Release)
 set(  CMAKE_C_FLAGS_RELEASE "-march=native -O3 -fgraphite-identity -floop-nest-optimize ")
@@ -15,6 +15,7 @@ add_library(
   CityTest.cpp
   City.cpp
   crc.cpp
+  crc64.cpp
   DifferentialTest.cpp
   Hashes.cpp
   KeysetTest.cpp

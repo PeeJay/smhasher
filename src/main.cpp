@@ -47,10 +47,11 @@ HashInfo g_hashes[] =
   { DoNothingHash,        64, 0x00000000, "donothing64", "Do-Nothing function (only valid for measuring call overhead)" },
   { DoNothingHash,       128, 0x00000000, "donothing128", "Do-Nothing function (only valid for measuring call overhead)" },
 
-  { crc32,                32, 0x3719DB20, "crc32",       "CRC-32" },
+  { crc32,                32, 0x3719db20, "crc32",       "CRC-32" },
+  { crc64,                64, 0x19cca48b, "crc64",       "CRC-64" },
   
-  { xxhash32,             32, 0xBA88B743, "xxhash32",       "xxhash32" },
-  { xxhash64,             64, 0x024B7CF4, "xxhash64",       "xxhash64" },
+  { xxhash32,             32, 0xBA88B743, "xxhash32",    "xxhash32" },
+  { xxhash64,             64, 0x024B7CF4, "xxhash64",    "xxhash64" },
 
   { md5_32,               32, 0xC10C356B, "md5_32a",     "MD5, first 32 bits of result" },
   { sha1_32a,             32, 0xF9376EA7, "sha1_32a",    "SHA1, first 32 bits of result" },

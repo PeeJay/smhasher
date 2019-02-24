@@ -28,8 +28,9 @@ void sha1_32a              ( const void * key, int len, uint32_t seed, void * ou
 //----------
 // General purpose hashes
 
-void xxhash64 				( const void * key, int len, uint32_t seed, void * out );
-void xxhash32 				( const void * key, int len, uint32_t seed, void * out );
+void xxhash64              ( const void * key, int len, uint32_t seed, void * out );
+void xxhash32              ( const void * key, int len, uint32_t seed, void * out );
+void crc64                 ( const void * key, int len, uint32_t seed, void * out );
 void FNV                   ( const void * key, int len, uint32_t seed, void * out );
 void Bernstein             ( const void * key, int len, uint32_t seed, void * out );
 void SuperFastHash         ( const void * key, int len, uint32_t seed, void * out );
