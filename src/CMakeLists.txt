@@ -35,6 +35,7 @@ add_library(
   Types.cpp
   PMurHash.c
   xxhash.cpp
+  xxhash.c
 )
 
 add_executable(
@@ -45,5 +46,4 @@ add_executable(
 target_link_libraries(
   SMHasher
   SMHasherSupport
-  xxhash
 )

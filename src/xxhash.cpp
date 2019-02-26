@@ -2,7 +2,7 @@
 
 extern "C"
 {
-#include <xxhash.h>
+#include "xxhash.h"
 }
 
 void xxhash64 ( const void * key, int len, uint32_t seed, void * out )
