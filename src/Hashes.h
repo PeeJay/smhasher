@@ -13,7 +13,9 @@ void sumhash               ( const void * key, int len, uint32_t seed, void * ou
 void sumhash32             ( const void * key, int len, uint32_t seed, void * out );
 
 void DoNothingHash         ( const void * key, int len, uint32_t seed, void * out );
+
 void crc32                 ( const void * key, int len, uint32_t seed, void * out );
+void crc32hw               ( const void * key, int len, uint32_t seed, void * out );
 
 void randhash_32           ( const void * key, int len, uint32_t seed, void * out );
 void randhash_64           ( const void * key, int len, uint32_t seed, void * out );

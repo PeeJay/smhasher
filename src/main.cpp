@@ -48,6 +48,7 @@ HashInfo g_hashes[] =
   { DoNothingHash,       128, 0x00000000, "donothing128", "Do-Nothing function (only valid for measuring call overhead)" },
 
   { crc32,                32, 0x3719db20, "crc32",       "CRC-32" },
+  { crc32hw,              32, 0x6E6071BD, "crc32hw",     "CRC-32 Hardware Accelerated" },
   { crc64,                64, 0x19cca48b, "crc64",       "CRC-64" },
   
   { xxhash32,             32, 0xBA88B743, "xxhash32",    "xxhash32" },

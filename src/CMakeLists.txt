@@ -15,6 +15,7 @@ add_library(
   CityTest.cpp
   City.cpp
   crc.cpp
+  crc32hw.cpp
   crc64.cpp
   DifferentialTest.cpp
   Hashes.cpp
